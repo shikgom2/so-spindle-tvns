@@ -1,0 +1,56 @@
+# ── Participant data: never commit (see README "Data availability") ──────────
+# every script reads its inputs from data/
+/data/
+/fif/
+/session_mapping*.csv
+/sessions_key*.xlsx
+*.fif
+*.edf
+*.bdf
+*.set
+*.fdt
+*.vhdr
+*.vmrk
+*.eeg
+*.mat
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.xlsx
+*.xls
+
+# ── Generated outputs ────────────────────────────────────────────────────────
+# analysis/s0*.py write to analysis/outputs/
+outputs/
+# figstyle.save() writes fig*.pdf / fig*.png next to the figure scripts
+figures/*.png
+figures/*.pdf
+figures/*.svg
+# manuscript build (text, figures, .docx) is kept local
+/manuscript/
+figs/
+*.docx
+~$*.docx
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ── Editors / OS ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

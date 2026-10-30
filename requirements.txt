@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+statsmodels>=0.14
+matplotlib>=3.8
+mne>=1.6
+yasa>=0.6
+python-docx>=1.1
+pyarrow>=14.0
